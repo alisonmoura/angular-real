@@ -1,0 +1,25 @@
+{
+  "name": "angular-real",
+  "authors": [
+    "Alison Moura <alison.oghino@gmail.com>"
+  ],
+  "description": "Filtro para moeda brasileira (real)",
+  "main": "filter.js",
+  "keywords": [
+    "angular-filter-real",
+    "angular-filter-br",
+    "angular-filter"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.5.8"
+  }
+}

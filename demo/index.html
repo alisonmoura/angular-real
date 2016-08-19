@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR" ng-app="AngularRealTest">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Angular Real</title>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="js/filter.js"></script>
+    <script>
+        var app = angular.module("AngularRealTest", ['AngularReal']);
+
+        app.controller("AppController", function($scope) {
+            $scope.number = 0;
+        });
+    </script>
+</head>
+
+<body ng-controller="AppController">
+    <h1>Angular Real</h1>
+    <input type="text" ng-model="number" placeholder="Digíte o número aqui">
+    <h3>{{number | currency}}</h3>
+    <h3>{{number | real}}</h3>
+</body>
+
+</html>
