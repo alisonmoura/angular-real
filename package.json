@@ -1,0 +1,22 @@
+{
+  "name": "angular-real",
+  "version": "1.0.0",
+  "description": "Um projeto, extremamente simples, para formatação de moeda brasileira com o filter do angularjs",
+  "main": "dist/filter.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonmoura/angular-real.git"
+  },
+  "author": "Alison Moura <alison.oghino@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonmoura/angular-real/issues"
+  },
+  "homepage": "https://github.com/alisonmoura/angular-real#readme"
+}

@@ -3,15 +3,15 @@
   "authors": [
     "Alison Moura <alison.oghino@gmail.com>"
   ],
-  "description": "Filtro para moeda brasileira (real)",
-  "main": "filter.js",
+  "description": "Um projeto, extremamente simples, para formatação de moeda brasileira com o filter do angularjs",
+  "main": "dist/filter.js",
   "keywords": [
     "angular-filter-real",
     "angular-filter-br",
     "angular-filter"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/alisonmoura/angular-real#readme",
   "ignore": [
     "**/.*",
     "node_modules",
