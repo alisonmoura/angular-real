@@ -16,4 +16,8 @@ Em seu html principal, adicione o seguinte código:
 
 Adicione o módulo ``AngularReal`` como dependencia do seu projeto.
 
-``angular.module('MyApp',['AngularReal'])``
+``angular.module('MeuApp',['AngularReal'])``
+
+Para usar o filter, faça o seguinte:
+
+``{{ meuTexto | real }}``
