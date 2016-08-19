@@ -12,12 +12,8 @@ Um projeto, extremamente simples para formatação de moeda brasileira
 ## Uso
 Em seu html principal, adicione o seguinte código:
 
-``
-  <script src="bower_components/angular-real/dist/angular-real.js"></script>
-``
+``<script src="bower_components/angular-real/dist/angular-real.js"></script>``
 
 Adicione o módulo ``AngularReal`` como dependencia do seu projeto.
 
-``
-angular.module('MyApp',['AngularReal'])
-``
+``angular.module('MyApp',['AngularReal'])``
