@@ -16,6 +16,5 @@
   ],
   "dependencies": {
     "angular": "angularjs#^1.5.8",
-    "angular-real": "*"
   }
 }
