@@ -2,7 +2,7 @@
   "name": "angular-real",
   "version": "2.0.0",
   "description": "Um projeto, extremamente simples, para formatação de moeda brasileira com o filter do angularjs",
-  "main": "dist/filter.js",
+  "main": "dist/angular-real.js",
   "directories": {
     "test": "test"
   },
