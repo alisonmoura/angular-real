@@ -17,7 +17,7 @@ app.filter('real', function() {
                 else if (parts[1].length < 2)
                     parts[1] += "0"
                 else if (parts[1].length > 2)
-                    parts[1] = parts[1].splice(2, parts[1].length - 2)
+                    parts[1] = parts[1].slice(0,2);
             }
             var max = parts[0].length;
             for (var i = 0; i < max && parts[0].split('')[0] == "0"; i++) {
